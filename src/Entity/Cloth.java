@@ -1,4 +1,6 @@
-public class Cloth extends Product{
+package Entity;
+
+public class Cloth extends Product {
     private String size;
     private String material;
 
@@ -16,7 +18,7 @@ public class Cloth extends Product{
 
     @Override
     public String toString() {
-        return "Cloth{" +
+        return "Entity.Cloth{" +
                 "size='" + size + '\'' +
                 ", material='" + material + '\'' +
                 '}';

@@ -1,3 +1,5 @@
+package Entity;
+
 public class User {
     private int id;
     private String login;
@@ -19,7 +21,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Entity.User{" +
                 "id=" + id +
                 ", login='" + login + '\'' +
                 ", password='" + password + '\'' +
